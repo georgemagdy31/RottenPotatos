@@ -7,7 +7,7 @@ export class AuthService {
 
   constructor() { }
   login(uname: string, pword: string) {
-    if (uname === 'suren' && pword === '1234') {
+    if (uname === 'george' && pword === '99200') {
       return 200;
     } else {
       return 403;
